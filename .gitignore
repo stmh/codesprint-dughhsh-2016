@@ -18,3 +18,4 @@ public/.editorconfig
 public/.eslintignore
 public/.eslintrc
 public/.gitattributes
+public/autoload.php
