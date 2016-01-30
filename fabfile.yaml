@@ -1,6 +1,6 @@
 name: codesprint
 deploymentModule: codesprint_deploy
-
+uuid: d23a4df4-51b8-478f-8200-ed817e48c4ec
 requires: 2.0.0
 
 needs:

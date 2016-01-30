@@ -1,0 +1,28 @@
+uuid: 5b018583-821a-48be-835e-94fafcfa137b
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.node_view
+  module:
+    - panels
+id: panels_node_view
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  uuid: a2240006-cfa1-41a2-be01-1c8264d3094b
+  label: null
+  weight: 0
+  layout: twocol
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: panels_node_view
+  builder: ipe
+page: node_view
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

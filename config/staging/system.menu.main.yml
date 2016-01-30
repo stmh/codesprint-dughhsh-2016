@@ -1,0 +1,10 @@
+uuid: 60a7d9eb-7e37-4857-a209-0947bbaf0d92
+langcode: en
+status: true
+dependencies: {  }
+_core:
+  default_config_hash: Q2Ra3jfoIVk0f3SjxJX61byRQFVBAbpzYDQOiY-kno8
+id: main
+label: 'Main navigation'
+description: 'Site section links'
+locked: true

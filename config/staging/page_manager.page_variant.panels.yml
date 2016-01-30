@@ -1,0 +1,58 @@
+uuid: e7fc93df-da33-4c29-9700-0fcdcb722264
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.test
+    - system.menu.admin
+  module:
+    - panels
+    - system
+id: panels
+label: Panels
+variant: panels_variant
+variant_settings:
+  blocks:
+    e3f63949-01dc-459c-ad0a-1027311f0f53:
+      id: page_title_block
+      label: 'Page title'
+      provider: core
+      label_display: '0'
+      region: left
+      uuid: e3f63949-01dc-459c-ad0a-1027311f0f53
+      weight: 1
+    dfc14352-61e7-451a-9a05-5fb5f9026d4d:
+      id: local_tasks_block
+      label: Tabs
+      provider: core
+      label_display: '0'
+      primary: 1
+      secondary: 1
+      region: right
+      uuid: dfc14352-61e7-451a-9a05-5fb5f9026d4d
+      weight: 2
+    3b783e61-fbbc-469f-b743-673d462b12d3:
+      id: 'system_menu_block:admin'
+      label: Administration
+      provider: system
+      label_display: visible
+      level: '1'
+      depth: '0'
+      region: right
+      uuid: 3b783e61-fbbc-469f-b743-673d462b12d3
+      weight: 1
+  id: panels_variant
+  uuid: 147233f4-05de-4246-ba00-eebeb55f9057
+  label: null
+  weight: 0
+  layout: twocol
+  layout_settings: {  }
+  page_title: 'test panels'
+  storage_type: page_manager
+  storage_id: panels
+  builder: ipe
+page: test
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

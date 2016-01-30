@@ -1,0 +1,22 @@
+uuid: e7965cfd-42f5-4014-bd03-3d62955c7697
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.dumb
+  module:
+    - text
+id: node.dumb.body
+field_name: body
+entity_type: node
+bundle: dumb
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+field_type: text_with_summary
