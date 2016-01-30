@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bf796852cdae5db5f18999f9364f98f4",
-    "content-hash": "f26216bb93115b4d4e83ed8d93862d01",
+    "hash": "e3ddec5ade849cd9525169de47a683c0",
+    "content-hash": "b537935fc23cd845210b2eb714904d5a",
     "packages": [
         {
             "name": "composer/installers",
@@ -901,22 +901,22 @@
         },
         {
             "name": "drupal/page_manager",
-            "version": "8.1.0-alpha22",
+            "version": "dev-8.x-1.x",
             "source": {
                 "type": "git",
                 "url": "https://git.drupal.org/project/page_manager",
-                "reference": "24a8d57571c9fa792178371dcb43219024a3c34c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/page_manager-8.x-1.0-alpha22.zip",
-                "reference": null,
-                "shasum": null
+                "reference": "3fc69136002e5725d8980f8600354c87bb6e9c2f"
             },
             "require": {
                 "drupal/block": "8.*",
                 "drupal/core": "8.*",
-                "drupal/ctools": "8.*"
+                "drupal/ctools": "~8.3.0-alpha21"
+            },
+            "replace": {
+                "drupal/page_manager_ui": "self.version"
+            },
+            "suggest": {
+                "drupal/core": "Required by drupal/page_manager_ui"
             },
             "type": "drupal-module",
             "extra": {
@@ -931,13 +931,13 @@
             "authors": [
                 {
                     "name": "Tim Plunkett",
-                    "homepage": "http://winstondodger.com",
+                    "homepage": "https://www.drupal.org/u/tim.plunkett",
                     "role": "Maintainer"
                 }
             ],
             "description": "Provides a way to place blocks on a custom page.",
             "homepage": "https://www.drupal.org/project/page_manager",
-            "time": "2016-01-19 20:15:05"
+            "time": "2016-01-29 17:36:32"
         },
         {
             "name": "drupal/panels",

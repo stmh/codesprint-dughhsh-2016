@@ -25,7 +25,7 @@
     "factorial-io/fabalicious": "dev-develop",
     "drupal/coffee": "8.*",
     "drupal/panels": "dev-8.x-3.x",
-    "drupal/page_manager": "8.1.*@dev",
+    "drupal/page_manager": "dev-8.x-1.x",
     "drupal/ctools": "dev-8.x-3.x"
   },
   "extra": {
