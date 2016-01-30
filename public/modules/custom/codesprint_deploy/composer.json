@@ -1,0 +1,7 @@
+{
+  "name": "factorial/codesprint_deploy",
+  "description": "Deployment module",
+  "type": "drupal-module",
+  "require": {
+  }
+}

@@ -1,0 +1,6 @@
+name: codesprint deploy
+description: "Helper module to centralize all deploy-related actions via hook_update"
+package: codesprint
+type: module
+core: 8.x
+
